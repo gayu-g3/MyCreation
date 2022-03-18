@@ -1,0 +1,86 @@
+body
+{
+background-color:rgb(226, 211, 146) ;
+margin:20px 10px 20px 10px;
+}
+p{
+    text-align:center;
+    color:brown;
+    font-size:50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    border:10px solid rgb(255, 238, 0);
+    margin:10px 400px 30px 400px;
+    border-width: 100%;
+    padding: 10px;
+    background-image: repeating-conic-gradient(rgb(192, 113, 168) 10deg 20deg,rgb(212, 208, 154) 0deg 10deg ,rgb(171, 130, 238) 20deg 30deg);
+    border-radius:40px;
+}
+.list
+{
+    background-color:grey;
+    padding:10px;
+    margin:20px 100px 10px 100px;
+    border-radius: 20px;
+}
+.b1
+{
+    background-color: rgba(252, 33, 186, 0.979);
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    padding:10px;
+    margin:40px 100px 40px 100px;
+    border-left: 5px solid rgb(255, 0, 106);
+    border-radius: 20px;
+
+}
+.g1
+{
+    background-color: rgba(220, 243, 118, 0.979);
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    padding:10px;
+    margin:40px 100px 40px 100px;
+    border-left: 5px solid rgba(22, 71, 10, 0.705);
+    border-radius: 20px;
+}
+li
+{
+padding:10px;
+margin:10px 20px 10px 50px;
+list-style:circle;
+list-style-position: inside;
+}
+
+.list1
+{
+    background-image: linear-gradient(to bottom right,rgb(230, 67, 116),green,rgb(209, 191, 1),rgb(226, 32, 64));
+    padding:10px;
+    margin:10px 100px 10px 100px;
+    border-radius: 20px;
+}
+.b11
+{
+    background-image: repeating-linear-gradient(to top,violet,rgb(38, 0, 128) 10%,orange 20%);
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    padding:10px;
+    margin:40px 100px 40px 100px;
+    border-left: 5px solid rgb(255, 0, 106);
+    border-radius: 20px;
+
+}
+.g11
+{
+    background-image: repeating-linear-gradient(rgb(89, 0, 255), yellow 10% , rgb(128, 0, 32) 20% );
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    padding:10px;
+    margin:40px 100px 40px 100px;
+    border-left: 5px solid rgba(22, 71, 10, 0.705);
+    border-radius: 20px;
+}

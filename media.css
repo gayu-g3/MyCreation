@@ -1,0 +1,112 @@
+body
+{
+ background-image:url(music.jpg);
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-position: center;
+ background-size:cover;
+
+}
+.m1
+{
+    margin:20px 350px 20px 50px;
+    color:rgb(148, 46, 9);
+    border:4px solid black;
+    box-shadow: 2px 2px 4px 7px blue, 4px 4px 6px 12px red, 6px 6px 6px 17px green;
+}
+audio
+{
+  box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+  transform: scale(1.3);    
+  padding:10px;
+  margin-left:40px;
+  
+
+}
+
+.yuvan
+{
+  margin: 10px;
+  border:2.5px solid black;
+  border-radius:19px;
+  width:300px;
+  background-image:linear-gradient(lightpink,transparent,lightpink);
+  transform:rotate(-8deg);
+ 
+}
+
+.yuvan1
+{
+  margin-left: 150px;
+  border:4px solid black;
+  border-radius:19px;
+  width:400px;
+  background-image:linear-gradient(to bottom right,slategrey,transparent,slategrey);
+  padding:10px;
+  transform:rotate(8deg);
+  
+}
+
+
+.AR
+{
+  margin: 10px;
+  border:2.5px solid black;
+  border-radius:19px;
+  width:300px;
+  background-image:linear-gradient(lightpink,transparent,lightpink);
+  transform:rotate(-10deg);
+}
+
+.AR1
+{
+  margin-left: 150px;
+  border:4px solid black;
+  border-radius:19px;
+  width:400px;
+  background-image:linear-gradient(to bottom right,slategrey,transparent,slategrey);
+  padding:10px;
+  transform: rotate(6deg);
+}
+
+.sid
+{
+  margin: 10px;
+  border:2.5px solid black;
+  border-radius:19px;
+  width:300px;
+  background-image:linear-gradient(lightpink,transparent,lightpink);
+}
+.sid1
+{
+  margin-left: 150px;
+  border:4px solid black;
+  border-radius:19px;
+  width:400px;
+  background-image:linear-gradient(to bottom right,slategrey,transparent,slategrey);
+  padding:10px;
+}
+h2
+{
+color:blue;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+width:300px;
+width:auto;
+}
+h1
+{
+color:darkmagenta;
+text-align:center;
+font-weight: bold;
+font-size:40px;
+border:2px dashed red;
+margin-left:350px;
+margin-right:350px;
+background-image: linear-gradient(lightyellow,lightpink,lightgreen);
+}
+iframe
+{
+  border:3px solid black;
+  border-radius:20px;
+  padding:20px;
+}

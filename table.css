@@ -1,0 +1,463 @@
+
+body
+{
+    background-color: rgb(200, 163, 219);
+}
+
+.tab1
+{
+ background-image: linear-gradient(to bottom right,yellow,violet,green);
+ margin:10px 50px 10px 50px;
+ border-left:4px solid blue;
+ border-radius:30px;
+ padding:20px;
+}
+
+.t1 
+{
+    border:3px solid black;
+    border-spacing:10px;
+    border-radius:20px;
+    background-image:radial-gradient(circle,green,orange);
+    padding:20px;
+    margin:10px 150px 10px 150px;
+    width:70%;
+    text-align:center;
+    table-layout: fixed;
+}
+.t1 tbody tr td
+{
+    border:2px solid black;
+    padding:10px;
+    color: white;
+    border-radius: 20px;
+ 
+}
+.t1 thead tr th
+{
+    border:2px solid black;
+    border-radius: 20px;
+    border-spacing: 10px;
+    
+}
+.t1 tbody tr:nth-child(odd)
+{
+    background-color: brown;
+}
+.t1 tbody tr:nth-child(even)
+{
+    background-color: cornflowerblue;
+}
+
+/*******************************************************************************/
+.tab2
+{
+    background-image: radial-gradient(brown,rgb(180, 21, 180),green );
+    margin:10px 50px 10px 50px;
+    border-left:4px solid blue;
+    border-radius:30px;
+    padding:20px;
+}
+
+.t2
+{
+    border:3px solid black;
+    border-spacing:10px;
+    border-radius:20px;
+    background-image:radial-gradient(circle,green,orange);
+    padding:20px;
+    margin:10px 150px 10px 150px;
+    width:70%;
+    text-align:center;
+    table-layout: fixed;
+}
+   
+.t2 tbody tr td
+{
+    border:2px solid black;
+    padding:10px;
+    color: white;
+    border-radius: 20px;
+ 
+}
+.t2 thead tr th
+{
+    border:2px solid black;
+    border-radius: 20px;
+    border-spacing: 10px;
+    
+}
+
+.t2 tbody tr:nth-child(odd) td:nth-child(odd),
+.t2 tbody tr:nth-child(even) td:nth-child(even)
+{
+    background-color: crimson;
+    background-image: linear-gradient(rgb(220, 20, 60),blue);
+}
+.t2 tbody tr:nth-child(odd) td:nth-child(even),
+.t2 tbody tr:nth-child(even) td:nth-child(odd)
+{
+    background-color: dodgerblue;
+    background-image: linear-gradient(darkgreen,maroon);
+  
+}
+
+/*************************************************************************/
+
+.tab31
+{
+    background-image: radial-gradient(violet,lightgray,yellow);
+    background-color:white;
+    margin:10px 50px 10px 50px;
+    border-left:4px solid blue;
+    border-radius:30px;
+    padding:20px;
+}
+.tab32
+{
+    background-image:radial-gradient(circle,white,transparent,lightgray);
+    background-color:white;
+    margin:10px 50px 10px 50px;
+    border-left:4px solid blue;
+    border-radius:30px;
+    padding:20px;
+}
+
+.t3
+{
+    border:2px solid white;
+    border-spacing:20px;
+    border-radius:20px;
+    
+    background-image: radial-gradient(circle,gray,transparent, rgb(175, 175, 253));
+    padding:20px;
+    margin:10px 100px 10px 100px;
+    width:75%;
+    text-align:center;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+.t3 tbody tr td
+{
+   
+    padding:15px;
+    color: white;
+   
+}
+span
+{
+background-image: radial-gradient(ellipse,darkred,darkviolet);
+font-size:40px;
+color:black;
+display: block;
+}
+
+
+.t3 tbody tr:nth-child(odd) td:nth-child(odd),
+.t3 tbody tr:nth-child(even) td:nth-child(even)
+{
+    background-color: crimson;
+    background-image: linear-gradient(black,black);
+}
+
+.t3 tbody tr:nth-child(odd) td:nth-child(even),
+.t3 tbody tr:nth-child(even) td:nth-child(odd)
+{
+    color:black;
+  
+}
+/*********************************************************************************/
+
+.tab4
+{
+ background-image: linear-gradient(to bottom right,yellow,violet,green);
+ margin:10px 50px 10px 50px;
+ border-left:4px solid blue;
+ border-radius:30px;
+ padding:20px;
+}
+.t4
+{
+    border:3px solid black;
+    border-spacing:10px;
+    border-radius:20px;
+    background-image:radial-gradient(circle,white,grey,lightgrey);
+    padding:20px;
+    margin:10px 150px 10px 150px;
+    width:70%;
+    text-align:center;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+.t4 tbody tr td
+{
+    border:2px solid black;
+    padding:10px;
+    color: white;
+  
+ 
+}
+.t4 thead tr th
+{
+    border:2px solid black;
+  
+    border-spacing: 10px;
+    
+}
+/*
+.t4 tbody tr:nth-child(7n+1) td:nth-child(7n+1),
+table tbody tr:nth-child(7n+2) td:nth-child(7n+2),
+table tbody tr:nth-child(7n+3) td:nth-child(7n+3),
+table tbody tr:nth-child(7n+4) td:nth-child(7n+4),
+table tbody tr:nth-child(7n+5) td:nth-child(7n+5),
+table tbody tr:nth-child(7n+6) td:nth-child(7n+6),
+table tbody tr:nth-child(7n+7) td:nth-child(7n+7)
+{
+ background-color: violet
+}
+
+.t4 tbody tr:nth-child(7n+1) td:nth-child(7n+2),
+
+.t4 tbody tr:nth-child(7n+2) td:nth-child(7n+3),
+.t4 tbody tr:nth-child(7n+2) td:nth-child(7n+1),
+
+.t4  tbody tr:nth-child(7n+3) td:nth-child(7n+2),
+.t4 tbody tr:nth-child(7n+3) td:nth-child(7n+4),
+
+.t4 tbody tr:nth-child(7n+4) td:nth-child(7n+5),
+.t4 tbody tr:nth-child(7n+4) td:nth-child(7n+3),
+
+.t4 tbody tr:nth-child(7n+5) td:nth-child(7n+4), 
+.t4  tbody tr:nth-child(7n+5) td:nth-child(7n+6),
+
+.t4 tbody tr:nth-child(7n+6) td:nth-child(7n+5),
+.t4 tbody tr:nth-child(7n+6) td:nth-child(7n+7),
+
+.t4  tbody tr:nth-child(7n+7) td:nth-child(7n+6), 
+.t4 tbody tr:nth-child(7n+7) td:nth-child(7n+8)
+{
+ background-color: indigo;
+}
+
+.t4 tbody tr:nth-child(7n+1) td:nth-child(7n+3),
+
+.t4 tbody tr:nth-child(7n+2) td:nth-child(7n+4),
+
+.t4  tbody tr:nth-child(7n+3) td:nth-child(7n+1),
+.t4 tbody tr:nth-child(7n+3) td:nth-child(7n+5),
+
+.t4 tbody tr:nth-child(7n+4) td:nth-child(7n+2),
+.t4 tbody tr:nth-child(7n+4) td:nth-child(7n+6),
+
+.t4 tbody tr:nth-child(7n+5) td:nth-child(7n+3), 
+.t4  tbody tr:nth-child(7n+5) td:nth-child(7n+7),
+
+.t4 tbody tr:nth-child(7n+6) td:nth-child(7n+4),
+.t4 tbody tr:nth-child(7n+6) td:nth-child(7n+8),
+
+.t4  tbody tr:nth-child(7n+7) td:nth-child(7n+5)
+{
+    background-color: blue;;
+}
+
+.t4 tbody tr:nth-child(7n+1) td:nth-child(7n+4),
+
+.t4 tbody tr:nth-child(7n+2) td:nth-child(7n+5),
+
+.t4  tbody tr:nth-child(7n+3) td:nth-child(7n+6),
+
+.t4 tbody tr:nth-child(7n+4) td:nth-child(7n+1),
+.t4 tbody tr:nth-child(7n+4) td:nth-child(7n+7),
+
+.t4 tbody tr:nth-child(7n+5) td:nth-child(7n+2), 
+.t4  tbody tr:nth-child(7n+5) td:nth-child(7n+8),
+
+.t4 tbody tr:nth-child(7n+6) td:nth-child(7n+3),
+
+
+.t4  tbody tr:nth-child(7n+7) td:nth-child(7n+4)
+{
+    background-color:green;
+}
+.t4 tbody tr:nth-child(7n+1) td:nth-child(7n+5),
+
+.t4 tbody tr:nth-child(7n+2) td:nth-child(7n+6),
+
+.t4  tbody tr:nth-child(7n+3) td:nth-child(7n+7),
+
+
+.t4 tbody tr:nth-child(7n+4) td:nth-child(7n+8),
+
+
+.t4 tbody tr:nth-child(7n+5) td:nth-child(7n+1), 
+
+
+.t4 tbody tr:nth-child(7n+6) td:nth-child(7n+2),
+
+
+.t4  tbody tr:nth-child(7n+7) td:nth-child(7n+3)
+{
+    background-color: yellow;
+}
+
+.t4 tbody tr:nth-child(7n+1) td:nth-child(7n+6),
+
+.t4 tbody tr:nth-child(7n+2) td:nth-child(7n+7),
+
+.t4  tbody tr:nth-child(7n+3) td:nth-child(7n+8),
+
+
+
+.t4 tbody tr:nth-child(7n+6) td:nth-child(7n+1),
+
+
+.t4  tbody tr:nth-child(7n+7) td:nth-child(7n+2)
+{
+    background-color: orange;
+}
+.t4 tbody tr:nth-child(7n+1) td:nth-child(7n+7),
+
+.t4 tbody tr:nth-child(7n+2) td:nth-child(7n+8),
+
+
+.t4  tbody tr:nth-child(7n+7) td:nth-child(7n+1)
+{
+    background-color: red;
+}*/
+
+
+
+.t4 tbody tr:nth-child(7n+1) td:nth-child(7n+1),
+.t4 tbody tr:nth-child(7n+2) td:nth-child(7n+2),
+.t4 tbody tr:nth-child(7n+3) td:nth-child(7n+3),
+.t4 tbody tr:nth-child(7n+4) td:nth-child(7n+4),
+.t4 tbody tr:nth-child(7n+5) td:nth-child(7n+5),
+.t4 tbody tr:nth-child(7n+6) td:nth-child(7n+6),
+.t4 tbody tr:nth-child(7n+7) td:nth-child(7n+7)
+
+{
+    background-color: violet;
+    color:white;
+
+}
+.t4 tbody tr:nth-child(7n+1) td:nth-child(7n+2),
+.t4 tbody tr:nth-child(7n+2) td:nth-child(7n+1),
+
+.t4 tbody tr:nth-child(7n+2) td:nth-child(7n+3),
+.t4 tbody tr:nth-child(7n+3) td:nth-child(7n+2),
+
+.t4 tbody tr:nth-child(7n+3) td:nth-child(7n+4),
+.t4 tbody tr:nth-child(7n+4) td:nth-child(7n+3)
+
+.t4 tbody tr:nth-child(7n+4) td:nth-child(7n+4),
+
+.t4 tbody tr:nth-child(7n+4) td:nth-child(7n+5),
+.t4 tbody tr:nth-child(7n+5) td:nth-child(7n+4),
+
+.t4 tbody tr:nth-child(7n+5) td:nth-child(7n+6),
+.t4 tbody tr:nth-child(7n+6) td:nth-child(7n+5),
+
+.t4 tbody tr:nth-child(7n+6) td:nth-child(7n+7),
+.t4 tbody tr:nth-child(7n+7) td:nth-child(7n+6),
+
+.t4 tbody tr:nth-child(7n+4) td:nth-child(7n+3)
+
+{
+    background-color: indigo;
+    color:white;
+}
+
+.t4 tbody tr:nth-child(7n+1) td:nth-child(7n+3),
+.t4 tbody tr:nth-child(7n+3) td:nth-child(7n+1),
+
+.t4 tbody tr:nth-child(7n+2) td:nth-child(7n+4),
+.t4 tbody tr:nth-child(7n+4) td:nth-child(7n+2),
+
+.t4 tbody tr:nth-child(7n+3) td:nth-child(7n+5),
+.t4 tbody tr:nth-child(7n+5) td:nth-child(7n+3),
+
+.t4 tbody tr:nth-child(7n+4) td:nth-child(7n+6),
+.t4 tbody tr:nth-child(7n+6) td:nth-child(7n+4),
+
+.t4 tbody tr:nth-child(7n+5) td:nth-child(7n+7),
+.t4 tbody tr:nth-child(7n+7) td:nth-child(7n+5)
+
+
+
+
+{
+    background-color:blue;
+    color:white;
+}
+
+.t4 tbody tr:nth-child(7n+1) td:nth-child(7n+4),
+.t4 tbody tr:nth-child(7n+4) td:nth-child(7n+1),
+
+.t4 tbody tr:nth-child(7n+2) td:nth-child(7n+5),
+.t4 tbody tr:nth-child(7n+5) td:nth-child(7n+2),
+
+.t4 tbody tr:nth-child(7n+3) td:nth-child(7n+6),
+.t4 tbody tr:nth-child(7n+6) td:nth-child(7n+3),
+
+.t4 tbody tr:nth-child(7n+4) td:nth-child(7n+7),
+.t4 tbody tr:nth-child(7n+7) td:nth-child(7n+4),
+
+.t4 tbody tr:nth-child(7n+5) td:nth-child(7n+2),
+
+.t4 tbody tr:nth-child(7n+6) td:nth-child(7n+3),
+
+.t4 tbody tr:nth-child(7n+7) td:nth-child(7n+4)
+
+{
+    background-color: green;
+    color:white;
+}
+
+.t4 tbody tr:nth-child(7n+1) td:nth-child(7n+5),
+.t4 tbody tr:nth-child(7n+5) td:nth-child(7n+1),
+
+.t4 tbody tr:nth-child(7n+2) td:nth-child(7n+6),
+.t4 tbody tr:nth-child(7n+6) td:nth-child(7n+2),
+
+.t4 tbody tr:nth-child(7n+3) td:nth-child(7n+7),
+.t4 tbody tr:nth-child(7n+7) td:nth-child(7n+3)
+
+
+{
+    background-color: yellow;
+    color:black;
+}
+
+.t4 tbody tr:nth-child(7n+1) td:nth-child(7n+6),
+.t4 tbody tr:nth-child(7n+6) td:nth-child(7n+1),
+
+.t4 tbody tr:nth-child(7n+2) td:nth-child(7n+7),
+.t4 tbody tr:nth-child(7n+7) td:nth-child(7n+2)
+{
+    background-color: orange;
+    color:black;
+}
+
+.t4 tbody tr:nth-child(7n+1) td:nth-child(7n+7),
+.t4 tbody tr:nth-child(7n+7) td:nth-child(7n+1)
+
+{
+    background-color: red;
+    color:white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
