@@ -5,6 +5,7 @@ body
  background-attachment: fixed;
  background-position: center;
  background-size:cover;
+ padding:10px;
 
 }
 .m1
@@ -92,6 +93,8 @@ color:blue;
 font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 width:300px;
 width:auto;
+margin:5px;
+text-align:center;
 }
 h1
 {
@@ -100,8 +103,8 @@ text-align:center;
 font-weight: bold;
 font-size:40px;
 border:2px dashed red;
-margin-left:350px;
-margin-right:350px;
+margin-left:200px;
+margin-right:200px;
 background-image: linear-gradient(lightyellow,lightpink,lightgreen);
 }
 iframe
@@ -109,4 +112,11 @@ iframe
   border:3px solid black;
   border-radius:20px;
   padding:20px;
+}
+img
+{
+  height:100px;
+  width:200px;
+  margin-left:50px;
+  padding:5px;
 }
